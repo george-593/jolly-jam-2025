@@ -225,7 +225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
-  position: {x: 0, y: 0}
 --- !u!61 &105860521
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -449,7 +448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a3fa4cfad84d425f8bd3a63d7ef3a61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraController
-  target: {fileID: 0}
+  target: {fileID: 105860519}
   smoothSpeed: 5
   offset: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
