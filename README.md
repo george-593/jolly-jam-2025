@@ -2,6 +2,9 @@
 ## Theme
 Wrapped Up
 
+## Must do sub-theme
+- Must include a Christmas song creatively
+
 ## Sub-Themes
 - Forgetful Memory
 - Retro
