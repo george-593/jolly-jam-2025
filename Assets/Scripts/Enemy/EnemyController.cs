@@ -12,19 +12,20 @@ public class EnemyController : MonoBehaviour
     private PlayerController player;
     private bool insidePlayer = false;
     private float timeSinceLastDamage = 0f;
+    private Rigidbody2D rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         player = target.gameObject.GetComponent<PlayerController>();
+        rb = gameObject.GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         // Move towards closest enemy
-        Vector2 myPos = transform.position;
-        Vector2 targetPos = target.position;
-        transform.position = Vector2.MoveTowards(myPos, targetPos, speed * Time.deltaTime);
+        Vector2 newPos = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        rb.MovePosition(newPos);
 
         // Deal damage to player after x amount of time
         if (insidePlayer)
