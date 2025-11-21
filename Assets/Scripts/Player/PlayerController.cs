@@ -5,9 +5,6 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
 
-    public Vector2 position = new Vector2();
-
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
