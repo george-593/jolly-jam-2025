@@ -21,7 +21,7 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        // Move towards closest enemy
+        // Move towards player
         Vector2 myPos = transform.position;
         Vector2 targetPos = target.position;
         transform.position = Vector2.MoveTowards(myPos, targetPos, speed * Time.deltaTime);
