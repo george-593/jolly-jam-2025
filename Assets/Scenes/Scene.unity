@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
-  health: 0
+  health: 100
 --- !u!61 &105860521
 BoxCollider2D:
   m_ObjectHideFlags: 0

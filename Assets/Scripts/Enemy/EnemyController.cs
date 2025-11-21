@@ -23,7 +23,7 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        // Move towards closest enemy
+        // Move towards player
         Vector2 newPos = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         rb.MovePosition(newPos);
 
