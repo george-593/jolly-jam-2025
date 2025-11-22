@@ -35,6 +35,7 @@ public class Map : MonoBehaviour
             for (int y = 0; y < height; y++)
             {
                 GameObject tile = Instantiate(tilePrefab, new Vector3(x + offset.x, y + offset.y, 0), Quaternion.identity);
+                tile.transform.SetParent(transform);
                 tile.GetComponent<SpriteRenderer>().sprite = GetBiome(heightMap[x, y], moistureMap[x, y], heatMap[x, y]).GetTileSprite();
             }
         }
