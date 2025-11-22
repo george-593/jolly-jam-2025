@@ -1,11 +1,18 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Player Settings")]
     public float moveSpeed = 5f;
     public float health = 100f;
+    public float warmth = 100f;
     public Weapon weapon;
     public Camera mainCamera;
+
+    [Header("UI Settings")]
+    public Slider healthBar;
+    public Slider warmthBar;
 
     private Rigidbody2D rb;
     private Vector2 mousePos;
@@ -19,6 +26,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         ProcessInputs();
+        UpdateUI();
     }
     void FixedUpdate()
     {
@@ -42,5 +50,11 @@ public class PlayerController : MonoBehaviour
         {
             weapon.Fire();
         }
+    }
+
+    void UpdateUI()
+    {
+        healthBar.value = health;
+        warmthBar.value = warmth;
     }
 }
