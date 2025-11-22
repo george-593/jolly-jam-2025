@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
     public float damage = 5f;
     // The time to wait before dealing damage.
     public float damageInterval = 0.5f;
+    public float health = 50f;
 
     private PlayerController player;
     private bool insidePlayer = false;
@@ -23,6 +24,12 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
+        // Check our health
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+
         // Move towards player
         Vector2 newPos = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         rb.MovePosition(newPos);
