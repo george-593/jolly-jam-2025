@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 8468e511fbfed4a2a8ae0c2cf8facdaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4512097938914743492
+    second: You Better Watch Out - Logo_0
+  - first:
+      213: -8345566336704198082
+    second: You Better Watch Out - Logo_1
+  - first:
+      213: 6665437815357514465
+    second: You Better Watch Out - Logo_2
+  - first:
+      213: -2574535247542605998
+    second: You Better Watch Out - Logo_3
+  - first:
+      213: 5447820685155514046
+    second: You Better Watch Out - Logo_4
+  - first:
+      213: -6666585438283836126
+    second: You Better Watch Out - Logo_5
+  - first:
+      213: -5223658763298185582
+    second: You Better Watch Out - Logo_6
+  - first:
+      213: 7646160460168998025
+    second: You Better Watch Out - Logo_7
+  - first:
+      213: -759393047872448479
+    second: You Better Watch Out - Logo_8
+  - first:
+      213: 5970590941740782270
+    second: You Better Watch Out - Logo_9
+  - first:
+      213: -4595134970140909913
+    second: You Better Watch Out - Logo_10
+  - first:
+      213: 1116993803557243908
+    second: You Better Watch Out - Logo_11
+  - first:
+      213: -4642463648242923706
+    second: You Better Watch Out - Logo_12
+  - first:
+      213: -1986065178299014470
+    second: You Better Watch Out - Logo_13
+  - first:
+      213: -5922690153389515372
+    second: You Better Watch Out - Logo_14
+  - first:
+      213: 4345330783205504470
+    second: You Better Watch Out - Logo_15
+  - first:
+      213: -7884807105285557777
+    second: You Better Watch Out - Logo_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 223
+        width: 98
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3be637a4dec161c0800000000000000
+      internalID: -4512097938914743492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 231
+        width: 94
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ac94b22a79e2c80800000000000000
+      internalID: -8345566336704198082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 244
+        width: 84
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e227d8c064608c50800000000000000
+      internalID: 6665437815357514465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_3
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 228
+        width: 95
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257208435d9654cd0800000000000000
+      internalID: -2574535247542605998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_4
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 228
+        width: 83
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb638b2ac0c8a9b40800000000000000
+      internalID: 5447820685155514046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_5
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 239
+        width: 61
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225dc4e6dd78b73a0800000000000000
+      internalID: -6666585438283836126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_6
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 239
+        width: 62
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e51c9e706d187b0800000000000000
+      internalID: -5223658763298185582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_7
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 228
+        width: 83
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ca20c6d6e9c1a60800000000000000
+      internalID: 7646160460168998025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_8
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 237
+        width: 59
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12859a0eb081675f0800000000000000
+      internalID: -759393047872448479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_9
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 218
+        width: 145
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2df95f3dccbd250800000000000000
+      internalID: 5970590941740782270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_10
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 214
+        width: 75
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae96c9371dca30c0800000000000000
+      internalID: -4595134970140909913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_11
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 239
+        width: 61
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c875d32fb508f00800000000000000
+      internalID: 1116993803557243908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_12
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 238
+        width: 83
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64701d3a8e7a29fb0800000000000000
+      internalID: -4642463648242923706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_13
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 234
+        width: 87
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2e6b23e341074e0800000000000000
+      internalID: -1986065178299014470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_14
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 233
+        width: 110
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d938c6fa06ecda0800000000000000
+      internalID: -5922690153389515372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_15
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 244
+        width: 85
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5b8842357bd4c30800000000000000
+      internalID: 4345330783205504470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Better Watch Out - Logo_16
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 239
+        width: 61
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe17af696b9839290800000000000000
+      internalID: -7884807105285557777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      You Better Watch Out - Logo_0: -4512097938914743492
+      You Better Watch Out - Logo_1: -8345566336704198082
+      You Better Watch Out - Logo_10: -4595134970140909913
+      You Better Watch Out - Logo_11: 1116993803557243908
+      You Better Watch Out - Logo_12: -4642463648242923706
+      You Better Watch Out - Logo_13: -1986065178299014470
+      You Better Watch Out - Logo_14: -5922690153389515372
+      You Better Watch Out - Logo_15: 4345330783205504470
+      You Better Watch Out - Logo_16: -7884807105285557777
+      You Better Watch Out - Logo_2: 6665437815357514465
+      You Better Watch Out - Logo_3: -2574535247542605998
+      You Better Watch Out - Logo_4: 5447820685155514046
+      You Better Watch Out - Logo_5: -6666585438283836126
+      You Better Watch Out - Logo_6: -5223658763298185582
+      You Better Watch Out - Logo_7: 7646160460168998025
+      You Better Watch Out - Logo_8: -759393047872448479
+      You Better Watch Out - Logo_9: 5970590941740782270
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
