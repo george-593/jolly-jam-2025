@@ -496,7 +496,7 @@ GameObject:
   - component: {fileID: 211332001}
   - component: {fileID: 211332000}
   m_Layer: 5
-  m_Name: Splatter (1)
+  m_Name: Splatter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
