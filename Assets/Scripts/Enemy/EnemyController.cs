@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyController : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class EnemyController : MonoBehaviour
     // The time to wait before dealing damage.
     public float damageInterval = 0.5f;
     public float health = 50f;
+    public Slider healthBar;
+
 
     private PlayerController player;
     private bool insidePlayer = false;
@@ -19,10 +22,13 @@ public class EnemyController : MonoBehaviour
     {
         player = target.gameObject.GetComponent<PlayerController>();
         rb = gameObject.GetComponent<Rigidbody2D>();
+
+        healthBar.maxValue = health;
     }
 
     void Update()
     {
+        healthBar.value = health;
         // Check our health
         if (health <= 0)
         {

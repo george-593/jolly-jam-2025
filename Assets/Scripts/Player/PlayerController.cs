@@ -41,7 +41,6 @@ public class PlayerController : MonoBehaviour
 
         // Warmth decrement
         timeSinceLastWarmthDecrease += Time.deltaTime;
-        Debug.Log(timeSinceLastWarmthDecrease);
         if (timeSinceLastWarmthDecrease >= wamrthDecreaseTime)
         {
             warmth -= warmthDecrement;
