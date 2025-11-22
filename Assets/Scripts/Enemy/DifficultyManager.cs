@@ -16,7 +16,6 @@ public class DifficultyManager : MonoBehaviour
         float timeInMins = timer / 60f;
 
         float newSpawnRate = spawnRateCurve.Evaluate(timeInMins);
-        Debug.Log(newSpawnRate);
         spawnManager.SetSpawnInterval(newSpawnRate);
     }
 }
