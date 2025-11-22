@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5328186442728499317}
   - component: {fileID: 1811626139239991460}
   m_Layer: 0
-  m_Name: BuletCircle
+  m_Name: BulletCirlce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
