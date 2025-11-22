@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField]
-    private Transform target;
+    public Transform target;
     public float speed = 3f;
     public float damage = 5f;
     // The time to wait before dealing damage.
