@@ -6,9 +6,13 @@ public class PlayerController : MonoBehaviour
     [Header("Player Settings")]
     public float moveSpeed = 5f;
     public float health = 100f;
-    public float warmth = 100f;
     public Weapon weapon;
     public Camera mainCamera;
+
+    [Header("Warmth Settings")]
+    public float warmth = 100f;
+    public float warmthDecrement = 1f; // Amount to lower the health by per wamrth decrement time
+    public float wamrthDecreaseTime = 5f;
 
     [Header("UI Settings")]
     public Slider healthBar;
@@ -16,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 mousePos;
+    private float timeSinceLastWarmthDecrease = 0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,6 +32,23 @@ public class PlayerController : MonoBehaviour
     {
         ProcessInputs();
         UpdateUI();
+
+        // Death check
+        if (health <= 0 || warmth <= 0)
+        {
+            Debug.Log("Player dead (not implemented)");
+        }
+
+        // Warmth decrement
+        timeSinceLastWarmthDecrease += Time.deltaTime;
+        Debug.Log(timeSinceLastWarmthDecrease);
+        if (timeSinceLastWarmthDecrease >= wamrthDecreaseTime)
+        {
+            warmth -= warmthDecrement;
+            timeSinceLastWarmthDecrease = 0f;
+
+        }
+
     }
     void FixedUpdate()
     {
