@@ -228,7 +228,7 @@ MonoBehaviour:
   moveSpeed: 5
   health: 100
   camera: {fileID: 361605882}
-  weapon: {fileID: 0}
+  weapon: {fileID: 1647216524}
 --- !u!61 &105860521
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -537,6 +537,7 @@ MonoBehaviour:
   - {fileID: 3276870701727103689, guid: 187ef6121171741c1b0421ea3bc9a2a6, type: 3}
   firepoint: {fileID: 556192504}
   fireForce: 20
+  damage: 0
 --- !u!212 &1647216525
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -631,6 +632,7 @@ MonoBehaviour:
   speed: 1.5
   damage: 5
   damageInterval: 0.5
+  health: 50
 --- !u!212 &1892942366
 SpriteRenderer:
   m_ObjectHideFlags: 0
