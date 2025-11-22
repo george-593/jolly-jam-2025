@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float health = 100f;
-    public Camera camera;
+    public Camera mainCamera;
     public Weapon weapon;
 
     private Rigidbody2D rb;
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         // Make player follow mouse
-        mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
+        mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         Vector2 aimDir = mousePos - rb.position;
         float aimAngle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = aimAngle;
