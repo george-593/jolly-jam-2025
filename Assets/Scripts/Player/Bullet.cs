@@ -3,6 +3,8 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public Rigidbody2D rb;
+    // Make damage get/set to hide in editor.
+    public float damage { get; set; }
 
     void OnBecameInvisible()
     {
@@ -11,9 +13,10 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("Collision");
         if (collision.gameObject.tag == "Enemy")
         {
-            // Damage enemy
+            collision.gameObject.GetComponent<EnemyController>().health -= damage;
             Destroy(gameObject);
         }
     }
