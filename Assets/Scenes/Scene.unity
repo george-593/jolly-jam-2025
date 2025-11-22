@@ -226,6 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
   health: 100
+  camera: {fileID: 361605882}
 --- !u!61 &105860521
 BoxCollider2D:
   m_ObjectHideFlags: 0
