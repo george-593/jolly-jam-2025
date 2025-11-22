@@ -16,11 +16,12 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    private void Update()
     {
         ProcessInputs();
-
+    }
+    void FixedUpdate()
+    {
         // Make player follow mouse
         mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
         Vector2 aimDir = mousePos - rb.position;
