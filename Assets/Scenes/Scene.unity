@@ -1212,7 +1212,9 @@ MonoBehaviour:
   minSpawnRadius: 5
   maxSpawnRadius: 20
   enemyPrefabs:
-  - {fileID: 7732086962209734617, guid: 5bd47a491d40d4e449f0f8ff6d2bb92e, type: 3}
+  - {fileID: 514643015475540439, guid: 8911145ed103647b9906b8ea128c4106, type: 3}
+  - {fileID: 753627490409712845, guid: 7c30bfce152d94921a4fff16330f3b43, type: 3}
+  - {fileID: 8758010435838187204, guid: 35b1d15730f624a1f81db9c81951f100, type: 3}
   spawnInterval: 2
   maxEnemies: 50
 --- !u!4 &1140300237
@@ -1224,7 +1226,7 @@ Transform:
   m_GameObject: {fileID: 1140300235}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.43506, y: -0.7748, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1484,7 +1486,7 @@ Transform:
   m_GameObject: {fileID: 1566340076}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.58504, y: 2.89029, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
