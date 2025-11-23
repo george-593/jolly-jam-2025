@@ -30,7 +30,8 @@ public class XPManager : MonoBehaviour
         Speed = 0,
         Damage = 1,
         MaxHealth = 2,
-        MaxWarmth = 3
+        MaxWarmth = 3,
+        NumBullets = 4
     }
 
     private void Start()
@@ -113,6 +114,7 @@ public class XPManager : MonoBehaviour
             case UpgradeType.Damage: return "Damage +";
             case UpgradeType.MaxHealth: return "Health +";
             case UpgradeType.MaxWarmth: return "Warmth +";
+            case UpgradeType.NumBullets: return "Bullets +";
             default: return "Upgrade";
         }
     }
@@ -137,6 +139,9 @@ public class XPManager : MonoBehaviour
                 break;
             case UpgradeType.Speed:
                 player.moveSpeed += 2;
+                break;
+            case UpgradeType.NumBullets:
+                player.weapon.numOfBullets += 1;
                 break;
             default:
                 break;
