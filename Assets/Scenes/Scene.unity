@@ -17663,7 +17663,7 @@ MonoBehaviour:
   maxSpawnRadius: 40
   itemPrefabs:
   - {fileID: 8247217145302556918, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
-  - {fileID: 8247217145302556918, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+  - {fileID: 8247217145302556918, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
   spawnInterval: 2.5
   maxItems: 50
 --- !u!1 &1972270048
