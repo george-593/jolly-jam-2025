@@ -133,7 +133,7 @@ public class XPManager : MonoBehaviour
                 player.maxHealth += 25;
                 break;
             case UpgradeType.MaxWarmth:
-                player.MaxWarmth += 25;
+                player.maxWarmth += 25;
                 break;
             case UpgradeType.Speed:
                 player.moveSpeed += 2;

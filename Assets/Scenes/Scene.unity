@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 105860521}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -616,7 +616,7 @@ MonoBehaviour:
   weapon: {fileID: 1647216524}
   mainCamera: {fileID: 361605882}
   warmth: 100
-  MaxWarmth: 100
+  maxWarmth: 100
   warmthDecrement: 0.5
   wamrthDecreaseTime: 2
   healthBar: {fileID: 574363504}
@@ -98395,6 +98395,63 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &8434225798624358542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6719989912593566942, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.38947
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719989912593566942, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.69468
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719989912593566942, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719989912593566942, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719989912593566942, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719989912593566942, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719989912593566942, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719989912593566942, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719989912593566942, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6719989912593566942, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8247217145302556918, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+      propertyPath: m_Name
+      value: WarmthItem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -98406,3 +98463,4 @@ SceneRoots:
   - {fileID: 1707203997}
   - {fileID: 1607944088}
   - {fileID: 1744404036}
+  - {fileID: 8434225798624358542}
