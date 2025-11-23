@@ -97,5 +97,8 @@ public class PlayerController : MonoBehaviour
     {
         healthBar.value = health;
         warmthBar.value = warmth;
+
+        healthBar.maxValue = maxHealth;
+        warmthBar.maxValue = maxWarmth;
     }
 }
