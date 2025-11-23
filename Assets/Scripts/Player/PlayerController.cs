@@ -34,6 +34,12 @@ public class PlayerController : MonoBehaviour
         if (warmth > maxWarmth) warmth = maxWarmth;
     }
 
+    public void AddHealth(float healthAmount)
+    {
+        health += healthAmount;
+        if (health > maxHealth) health = maxHealth;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
