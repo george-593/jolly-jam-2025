@@ -67,7 +67,7 @@ public class XPManager : MonoBehaviour
         {
             level += 1;
             levelProgress = 0f;
-            xpForNextLevel *= xpMultiplier;
+            xpForNextLevel = MathF.Round(xpForNextLevel * xpMultiplier);
 
             Debug.Log("Level Up! Level: " + level + " | Next XP Goal: " + xpForNextLevel);
 
