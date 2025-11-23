@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,12 +113,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fence_0
+      name: fence_horizontal
       rect:
         serializedVersion: 2
-        x: 3
+        x: 4
+        y: 16
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9932e673eaf542a4c80b265ea8cb9edf
+      internalID: -8266720329175738786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence_vertical
+      rect:
+        serializedVersion: 2
+        x: 39
         y: 0
-        width: 40
+        width: 3
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -126,10 +148,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e56daf9d8a5b64d80800000000000000
-      internalID: -8266720329175738786
+      spriteID: ba76ba251e3c66c4f9624c9eb39cbcf1
+      internalID: 750042222
       vertices: []
       indices: 
       edges: []
@@ -138,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a438fbc979d2cc5409997fed969af093
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +168,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
     nameFileIdTable:
-      fence_0: -8266720329175738786
+      fence_horizontal: -8266720329175738786
+      fence_vertical: 750042222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
