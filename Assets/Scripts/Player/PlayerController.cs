@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     [Header("UI Settings")]
     public Slider healthBar;
     public Slider warmthBar;
+    public GameObject deathPanel;
 
     private Rigidbody2D rb;
     private Vector2 mousePos;
@@ -54,7 +55,8 @@ public class PlayerController : MonoBehaviour
         // Death check
         if (health <= 0 || warmth <= 0)
         {
-            Debug.Log("Player dead (not implemented)");
+            Time.timeScale = 0f;
+            deathPanel.SetActive(true);
         }
 
         // Warmth decrement
