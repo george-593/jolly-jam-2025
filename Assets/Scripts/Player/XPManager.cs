@@ -90,7 +90,6 @@ public class XPManager : MonoBehaviour
 
         foreach (GameObject upgradePanel in upgradePanels)
         {
-            Debug.Log(upgradePanel);
             int randomIndex = UnityEngine.Random.Range(0, availableUpgrades.Count);
             UpgradeType selectedUpgrade = availableUpgrades[randomIndex];
 
