@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Warmth Settings")]
     public float warmth = 100f;
-    public float MaxWarmth = 100f;
+    public float maxWarmth = 100f;
     public float warmthDecrement = 1f; // Amount to lower the health by per wamrth decrement time
     public float wamrthDecreaseTime = 5f;
 
@@ -26,6 +26,13 @@ public class PlayerController : MonoBehaviour
     private Vector2 mousePos;
     private float timeSinceLastWarmthDecrease = 0f;
     private float timeSinceLastHPRegen = 0f;
+
+
+    public void AddWarmth(float warmthAmount)
+    {
+        warmth += warmthAmount;
+        if (warmth > maxWarmth) warmth = maxWarmth;
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
