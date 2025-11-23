@@ -6,11 +6,13 @@ public class PlayerController : MonoBehaviour
     [Header("Player Settings")]
     public float moveSpeed = 5f;
     public float health = 100f;
+    public float maxHealth = 100f;
     public Weapon weapon;
     public Camera mainCamera;
 
     [Header("Warmth Settings")]
     public float warmth = 100f;
+    public float MaxWarmth = 100f;
     public float warmthDecrement = 1f; // Amount to lower the health by per wamrth decrement time
     public float wamrthDecreaseTime = 5f;
 

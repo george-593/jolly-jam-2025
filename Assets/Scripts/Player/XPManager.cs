@@ -131,10 +131,10 @@ public class XPManager : MonoBehaviour
                 weapon.damage += 10;
                 break;
             case UpgradeType.MaxHealth:
-                player.health += 25;
+                player.maxHealth += 25;
                 break;
             case UpgradeType.MaxWarmth:
-                player.warmth += 25;
+                player.MaxWarmth += 25;
                 break;
             case UpgradeType.Speed:
                 player.moveSpeed += 2;
