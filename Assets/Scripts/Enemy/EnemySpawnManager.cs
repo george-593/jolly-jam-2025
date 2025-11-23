@@ -3,8 +3,9 @@ using System.Collections.Generic;
 
 public class EnemySpawnManager : MonoBehaviour
 {
-    [Header("Player Settings")]
+    [Header("References")]
     [SerializeField] private Transform player;
+    [SerializeField] private XPManager xPManager;
 
     [Header("Spawn Area Settings")]
     [SerializeField] private float minSpawnRadius = 10f;
@@ -50,7 +51,9 @@ public class EnemySpawnManager : MonoBehaviour
         GameObject enemyToSpawn = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
         Vector2 spawnPos = GetRandomSpawnPos();
         GameObject enemy = Instantiate(enemyToSpawn, spawnPos, Quaternion.identity);
-        enemy.GetComponent<EnemyController>().target = player;
+        EnemyController controller = enemy.GetComponent<EnemyController>();
+        controller.target = player;
+        controller.xPManager = xPManager;
         activeEnemies.Add(enemy);
     }
 

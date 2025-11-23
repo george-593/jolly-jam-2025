@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class EnemyController : MonoBehaviour
 {
     public Transform target;
+    public XPManager xPManager;
     public float speed = 3f;
     public float damage = 5f;
     // The time to wait before dealing damage.
@@ -32,6 +33,7 @@ public class EnemyController : MonoBehaviour
         // Check our health
         if (health <= 0)
         {
+            xPManager.AddXP("kill");
             Destroy(gameObject);
         }
 
