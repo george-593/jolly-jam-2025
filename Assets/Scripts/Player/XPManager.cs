@@ -34,6 +34,15 @@ public class XPManager : MonoBehaviour
         NumBullets = 4
     }
 
+    [Serializable]
+    public struct UpgradeData
+    {
+        public string name;
+        public UpgradeType type;
+        public Sprite icon;
+    }
+    public List<UpgradeData> upgradeList;
+
     private void Start()
     {
         UpdateUI();
@@ -96,26 +105,18 @@ public class XPManager : MonoBehaviour
 
             availableUpgrades.RemoveAt(randomIndex);
 
+            UpgradeData data = upgradeList.Find(x => x.type == selectedUpgrade);
+
             TMP_Text[] texts = upgradePanel.GetComponentsInChildren<TMP_Text>();
-            texts[1].text = GetUpgradeName(selectedUpgrade);
+            texts[1].text = data.name;
+
+            Image iconImg = upgradePanel.transform.Find("Icon")?.GetComponent<Image>();
+            iconImg.sprite = data.icon;
 
             Button upgradeBtn = upgradePanel.GetComponentInChildren<Button>();
 
             upgradeBtn.onClick.RemoveAllListeners();
             upgradeBtn.onClick.AddListener(() => LevelUpCallback((int)selectedUpgrade));
-        }
-    }
-
-    private string GetUpgradeName(UpgradeType type)
-    {
-        switch (type)
-        {
-            case UpgradeType.Speed: return "Move Speed +";
-            case UpgradeType.Damage: return "Damage +";
-            case UpgradeType.MaxHealth: return "Health +";
-            case UpgradeType.MaxWarmth: return "Warmth +";
-            case UpgradeType.NumBullets: return "Bullets +";
-            default: return "Upgrade";
         }
     }
 
