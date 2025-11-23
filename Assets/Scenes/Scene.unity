@@ -340,6 +340,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5677625504787538091, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677625504787538091, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.814
+      objectReference: {fileID: 0}
     - target: {fileID: 6719989912593566942, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.37
@@ -354,7 +362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6719989912593566942, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.248
+      value: -8.61
       objectReference: {fileID: 0}
     - target: {fileID: 6719989912593566942, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16037,10 +16045,19 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.21885735
-      value: 1.7950553
-      inSlope: -1.4575326
-      outSlope: -1.4575326
+      time: 0.5202434
+      value: 0.55043083
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.6204001
+      value: -0.022773445
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -16488,9 +16505,11 @@ MonoBehaviour:
   bullets:
   - {fileID: 7172277133644242353, guid: a844e6ff36e6646aaaa54e2e71ff4d8c, type: 3}
   - {fileID: 3276870701727103689, guid: 187ef6121171741c1b0421ea3bc9a2a6, type: 3}
+  numOfBullets: 1
   firepoint: {fileID: 556192504}
-  fireForce: 20
+  fireForce: 15
   damage: 15
+  spreadAngle: 2000
 --- !u!212 &1647216525
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17644,6 +17663,7 @@ MonoBehaviour:
   maxSpawnRadius: 40
   itemPrefabs:
   - {fileID: 8247217145302556918, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
+  - {fileID: 8247217145302556918, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
   spawnInterval: 2.5
   maxItems: 50
 --- !u!1 &1972270048
