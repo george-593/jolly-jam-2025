@@ -340,6 +340,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5677625504787538091, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677625504787538091, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.814
+      objectReference: {fileID: 0}
     - target: {fileID: 6719989912593566942, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.37
@@ -354,7 +362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6719989912593566942, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.248
+      value: -8.61
       objectReference: {fileID: 0}
     - target: {fileID: 6719989912593566942, guid: a7de078be19b74bc081f243fda520bb0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16488,9 +16496,11 @@ MonoBehaviour:
   bullets:
   - {fileID: 7172277133644242353, guid: a844e6ff36e6646aaaa54e2e71ff4d8c, type: 3}
   - {fileID: 3276870701727103689, guid: 187ef6121171741c1b0421ea3bc9a2a6, type: 3}
+  numOfBullets: 1
   firepoint: {fileID: 556192504}
-  fireForce: 20
+  fireForce: 15
   damage: 15
+  spreadAngle: 2000
 --- !u!212 &1647216525
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17643,6 +17653,7 @@ MonoBehaviour:
   minSpawnRadius: 15
   maxSpawnRadius: 40
   itemPrefabs:
+  - {fileID: 8247217145302556918, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
   - {fileID: 8247217145302556918, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
   spawnInterval: 2.5
   maxItems: 50
