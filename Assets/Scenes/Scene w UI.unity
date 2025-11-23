@@ -345,6 +345,7 @@ MonoBehaviour:
   wamrthDecreaseTime: 5
   healthBar: {fileID: 0}
   warmthBar: {fileID: 0}
+  deathPanel: {fileID: 0}
 --- !u!61 &105860521
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1270,6 +1271,7 @@ GameObject:
   - component: {fileID: 1168860426}
   - component: {fileID: 1168860425}
   - component: {fileID: 1168860424}
+  - component: {fileID: 1168860427}
   m_Layer: 5
   m_Name: Exit Button
   m_TagString: Untagged
@@ -1340,7 +1342,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1168860425}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1168860427}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: Scene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MainMenu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1168860425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1379,6 +1393,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168860422}
   m_CullTransparentMesh: 1
+--- !u!114 &1168860427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168860422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad9c941eb40b45b7a885e8457c34cfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
 --- !u!1 &1179581866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,6 +1742,7 @@ GameObject:
   - component: {fileID: 1304738585}
   - component: {fileID: 1304738584}
   - component: {fileID: 1304738583}
+  - component: {fileID: 1304738586}
   m_Layer: 5
   m_Name: Play Again Button
   m_TagString: Untagged
@@ -1825,6 +1852,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304738581}
   m_CullTransparentMesh: 1
+--- !u!114 &1304738586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304738581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5445358e4b064e6085b77eb922bedfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ReloadScene
 --- !u!1 &1324281780
 GameObject:
   m_ObjectHideFlags: 0
@@ -2729,7 +2768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1969127824
 RectTransform:
   m_ObjectHideFlags: 0
