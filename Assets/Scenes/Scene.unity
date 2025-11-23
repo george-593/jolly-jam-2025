@@ -617,8 +617,8 @@ MonoBehaviour:
   mainCamera: {fileID: 361605882}
   warmth: 100
   maxWarmth: 100
-  warmthDecrement: 0.5
-  wamrthDecreaseTime: 5
+  warmthDecrement: 1
+  wamrthDecreaseTime: 1
   healthBar: {fileID: 574363504}
   warmthBar: {fileID: 1856336528}
 --- !u!61 &105860521
@@ -14617,7 +14617,7 @@ MonoBehaviour:
   - {fileID: 753627490409712845, guid: 7c30bfce152d94921a4fff16330f3b43, type: 3}
   - {fileID: 8758010435838187204, guid: 35b1d15730f624a1f81db9c81951f100, type: 3}
   spawnInterval: 2
-  maxEnemies: 50
+  maxEnemies: 2000
 --- !u!4 &1140300237
 Transform:
   m_ObjectHideFlags: 0
@@ -15955,8 +15955,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.00005340576
-      value: 3.4795532
+      time: 0.002670288
+      value: 2.573082
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -15964,8 +15964,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 1.9395524
-      value: 2.376844
+      time: 0.21885735
+      value: 1.7950553
       inSlope: -1.4575326
       outSlope: -1.4575326
       tangentMode: 0
@@ -15973,50 +15973,14 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 3.293021
-      value: 1.484309
-      inSlope: -0.6154587
-      outSlope: -0.6154587
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 4.176383
-      value: 0.9794899
-      inSlope: -0.5940893
-      outSlope: -0.5940893
-      tangentMode: 136
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 4.5545063
-      value: 0.734874
-      inSlope: -0.9660972
-      outSlope: -0.9660972
-      tangentMode: 136
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 4.898974
-      value: 0.28139684
-      inSlope: -0.57097536
-      outSlope: -0.57097536
+      time: 3.4650838
+      value: 0.008267999
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 4.9869704
-      value: 0.12401953
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -17607,8 +17571,8 @@ MonoBehaviour:
   maxSpawnRadius: 40
   itemPrefabs:
   - {fileID: 8247217145302556918, guid: 896d8945d55cf43dd9b8638139e99088, type: 3}
-  spawnInterval: 10
-  maxItems: 20
+  spawnInterval: 2.5
+  maxItems: 50
 --- !u!1 &1972270048
 GameObject:
   m_ObjectHideFlags: 0
